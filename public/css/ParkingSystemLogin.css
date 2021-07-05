@@ -1,0 +1,75 @@
+/*--------------------Header Section-----------------*/
+h1{
+
+    font-family: 'Brawler', serif;
+    padding: 1.5rem 5rem 0rem;
+    }
+    .navbar{
+      padding: 3rem 5rem;
+    }
+
+    .container-1{
+        background-color:darkslateblue;
+        color:white;
+    }
+  
+/*------------------------------------------------------------*/
+  .form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  /* .form-background-back{
+      background-color: beige;
+  } */
+  .form-background{
+    background-color:beige;
+}
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+/*----------------Footer------------------------------------------*/
+.footer{
+    background-color:darkslateblue;
+    color:white;
+    text-align:center;
+    padding:1rem;
+}
+
+.footer-icon{
+    margin:15px;
+}
+
+
+
+/*--------------------------------------------Nav-Bar-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.nav{
+    color:white;
+}
+
+.nav-item{
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  font-family: 'Lora', serif;
+}
+
+.logo{
+  height: 5rem;
+}

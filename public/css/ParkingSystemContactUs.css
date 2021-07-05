@@ -1,0 +1,116 @@
+/*==========================Header Section===========================*/
+header>h1{
+
+    font-family: 'Brawler', serif;
+    padding: 1.5rem 5rem 0;
+  
+    }
+    .navbar{
+      padding: 3rem 5rem;
+    }
+  
+    .container-1{
+        background-color:darkslateblue;
+        color:white;
+    }
+    .fixed-top{
+      background-color:darkslateblue;
+      color:white;
+  
+    }
+  
+    /*-------------------------------------------Carousel-Section--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .carousel{
+        background-color: beige;
+        padding:1rem 5rem;
+    }
+    .carousel-item>img{
+      width:640px;
+      height:600px;
+    }
+    .carousel-control-next {
+      margin: 20px;
+    }
+  
+    .carousel-control-prev {
+      margin: 20px;
+    }
+    /*--------------------------------------------About-Project----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+    .about-project{
+        background-color:darkslateblue;
+        color:white;
+        padding:3rem 5rem;
+        font-family: 'Brawler', serif;
+    }
+    .about-project-info{
+    font-family: 'Lora', serif;
+    }
+  
+    .heading-project{
+        margin-bottom: 20px;
+    }
+    /*------------------------------------------Pricing-Section--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .pricing-section{
+        padding: 3rem 5rem;
+        background-color: beige;
+    }
+    .card-header{
+      font-family: 'Headland One', serif;
+      font-weight: bold;
+    }
+    .card-text{
+    font-family: 'Enriqueta', serif;
+      margin-top:20px;
+    }
+    /*--------------------------------------------Nav-Bar-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .nav{
+        color:white;
+    }
+  
+    .nav-item{
+      margin: 0.5rem;
+      font-size: 1.2rem;
+      font-family: 'Lora', serif;
+    }
+  
+    .logo{
+      height: 5rem;
+    }
+    .container-fluid{
+      margin-bottom: 25px;
+    }
+    /*-----------------------------------------Footer----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+    .footer{
+        background-color:darkslateblue;
+        color:white;
+        text-align:center;
+        padding:1rem;
+  
+    }
+  
+    .footer-icon{
+        margin:15px;
+    }
+  
+  /*-------------------------------------------------------------------Form-Part------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  label{
+    font-weight: bold;
+    font-family: 'Headland One', serif;
+    font-size: 15px;
+  }
+  
+  
+  .form-part1{
+    justify-content: center;
+    padding:2%;
+    background-color: beige;
+  
+  }
+  .contact-txt{
+    margin: 0.5rem;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+  }
+  
+

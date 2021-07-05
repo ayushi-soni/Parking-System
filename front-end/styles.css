@@ -1,0 +1,289 @@
+/*==========================Header Section===========================*/
+h1{
+
+    font-family: 'Brawler', serif;
+    padding: 1.5rem 5rem 0rem;
+    }
+    .navbar{
+      padding: 3rem 5rem ;
+    }
+    
+    .container-1{
+        background-color:darkslateblue;
+        color:white;
+    }
+    .fixed-top{
+      background-color:darkslateblue;
+      color:white;
+    
+    }
+/*===========================================================================*/
+/*=================================Carousel section==========================*/
+.carousel{
+    background-color: beige;
+    padding:1rem 5rem;
+}
+.carousel-item>img{
+  width:640px;
+  height:600px;
+}
+.carousel-control-next {
+  margin: 20px;
+}
+
+.carousel-control-prev {
+  margin: 20px;
+}
+
+/*=============================================================================*/
+/*===================================About Project=============================*/
+.about-project{
+    background-color:darkslateblue;
+    color:white;
+    padding:3rem 5rem;
+    font-family: 'Brawler', serif;
+}
+.about-project-info {
+font-family: 'Lora', serif;
+padding:1rem;
+}
+
+.heading-project{
+    margin-bottom: 20px;
+}
+/*=======================Pricing Section==================================*/
+.pricing-section{
+    padding: 3rem 10rem;
+    background-color: beige;
+}
+.card-header{
+  font-family: 'Headland One', serif;
+  font-weight: bold;
+}
+.card-text{
+font-family: 'Enriqueta', serif;
+  margin-top:20px;
+}
+/*=============================Nav Bar====================================*/
+.nav{
+    color:white;
+}
+
+.nav-item{
+  margin: 0.5rem;
+  font-size: 1.2rem;
+  font-family: 'Lora', serif;
+}
+
+.logo{
+  height: 5rem;
+}
+/*===============================Footer Section=============================*/
+.footer{
+    background-color:darkslateblue;
+    color:white;
+    text-align:center;
+    padding:1rem;
+}
+
+.footer-icon{
+    margin:15px;
+}
+ .footer-mark{
+  font-family: var(--bs-font-sans-serif);
+
+  }
+/*=========================Login Section===========================*/
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+  }
+  /* .form-background-back{
+      background-color: beige;
+  } */
+  .form-background{
+    background-color:beige;
+}
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+/*===========================Our Vision Section===============================*/
+p{
+    font-family: 'Lora', serif;
+    line-height: 1.7;
+    }
+  h3{
+    font-family: 'Brawler', serif;
+  }
+  .vision-heading{
+    padding-left: 80px
+  }
+  .purple{
+    background-color:darkslateblue;
+    color:white;
+  }
+  .beige{
+    background-color:beige;
+  }
+  .footer-mark{
+  font-family: var(--bs-font-sans-serif);
+  }
+
+  .bd-placeholder-img1{
+    margin-top: 120px;
+  
+  }
+  .bd-placeholder-img2{
+  height: 65%;
+  width:90%;
+  margin-left: 50px;
+  
+  }
+/*==========================Contact Us===============================*/
+label{
+    font-weight: bold;
+    font-family: 'Headland One', serif;
+    font-size: 15px;
+  }
+  
+  
+  .form-part1{
+    justify-content: center;
+    padding:2%;
+    background-color: beige;
+  
+  }
+  .contact-txt{
+    margin: 0.5rem;
+    font-size: 18px;
+    font-family: 'Lora', serif;
+  }
+/*=================================================================================*/
+/*===============================About Us Member's section=========================*/
+.member-1{
+    background-color:beige;
+    margin: 35px;
+  position: relative;
+  animation-duration: 2s;
+  animation-name: slidein;
+  border-radius:2%;
+}
+
+  .member-2{
+    background-color:beige;
+    margin: 35px;
+    position: relative;
+    animation-duration: 2s;
+    animation-name:slideout;
+    border-radius:2%;
+  }
+  .member-3{
+    background-color:beige;
+    margin: 35px;
+    position: relative;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-delay: 1s;
+    border-radius:2%;
+
+  }
+  .member-4{
+    background-color:beige;
+    margin: 35px;
+    position: relative;
+    animation-duration: 2s;
+    animation-name:slideout;
+    animation-delay: 1s;
+    border-radius:3%;
+  }
+
+     @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+  @keyframes slideout {
+  from {
+   margin-left: -100%;
+   width: 100%;
+  }
+
+  to {
+   margin-left: 0;
+   width: 100%;
+  }
+  }
+
+
+
+  .member-1 >img{
+    float:left;
+    width: 10%;
+    padding:1%;
+  }
+  .member-2 >img{
+    float:left;
+    width: 10%;
+    padding:1%;
+
+  }
+  .member-3 >img{
+    float:left;
+    width: 10%;
+    padding:1%;
+  }
+  .member-4 >img{
+    float:left;
+    width: 10%;
+    padding:1%;
+  }
+  h3{
+    padding:  1% ;
+
+    font-family: 'Brawler', serif;
+  }
+  .about{
+    font-family: 'Lora', serif;
+    padding:  1% 1%;
+    line-height:1.7;
+  }
+
+ .contact-details{
+   font-family: 'Lora', serif;
+   padding:  0.5% 1%;
+ }
+ .main-background{
+    background-color:wheat;
+    padding: 30px;
+  }
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+/*=================================================================================*/
+

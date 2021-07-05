@@ -1,0 +1,99 @@
+/*==========================Header Section===========================*/
+
+
+h1{
+
+  font-family: 'Brawler', serif;
+  padding: 3rem 5rem 0rem;
+  }
+  .navbar{
+    padding: 3rem 5rem;
+  }
+  
+  .container-1{
+      background-color:darkslateblue;
+      color:white;
+  }
+  .main-heading{
+    margin-bottom: 0;
+  }
+  .sidebar-headings{
+    font-family:sans-serif;
+    font-size: 20px;
+  }
+  .sign-out{
+    margin-left:5px;
+  
+  }
+  li{
+    list-style-type: none;
+  }
+  ul{
+    padding-top: 20px;
+  }
+  .xyz{
+    margin-bottom: 15px;
+  }
+  .fixed-top{
+    background-color: #f8f9fa;
+  
+  
+  }
+  
+  /*--------------------------------------------About-Project----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  
+  .about-project{
+      background-color:darkslateblue;
+      color:white;
+      padding:3rem 5rem;
+      font-family: 'Brawler', serif;
+  }
+  .about-project-info {
+  font-family: 'Lora', serif;
+  padding:1rem;
+  }
+  
+  .heading-project{
+      margin-bottom: 20px;
+  }
+  /*------------------------------------------Pricing-Section--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  /*--------------------------------------------Nav-Bar-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .nav{
+      color:white;
+  
+  }
+  
+  .nav-item{
+    margin: 0.5rem;
+    font-size: 1.2rem;
+    font-family: 'Lora', serif;
+  }
+  
+  
+  /*-----------------------------------------Footer----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+  .footer{
+      background-color:darkslateblue;
+      color:white;
+      text-align:center;
+      padding:1rem;
+  }
+  
+  .footer-icon{
+      margin:15px;
+  }
+  
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .sidebar{
+    height:580px;
+  }
+  .btn{
+    background-color:darkslateblue;
+  }
+  .grid{
+    border: solid white 1px;
+  }

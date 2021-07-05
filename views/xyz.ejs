@@ -1,0 +1,75 @@
+<main class="main1" id='print-content'>
+
+    <div class="row g-5 form-part1 invoice " >
+      <div class="col-md-5 col-lg-6 ">
+        <h3 class="mb-4 contact-heading  " >INVOICE</h3>
+        <hr class="my-4 bolder "  />
+        <div class="row g-3">
+          <div class="col-sm-6">
+            <form action="" method="post" enctype="text/plain">
+              <div class="row g-3">
+
+                <div class="col-md-10">
+                  <div class="date ">Full Name:</div>
+                <label for="Name"  class="" id=""><%= result.fullname %></label>
+                </div>
+
+                <div class="col-md-10">
+                  <div class="date ">Contact details:</div>
+                <label for="email" class=""><%= result.contact %></label>
+                </div>
+
+                <div class="col-md-10">
+                  <div class="date ">Vehicle No:</div>
+                    <label for="address" class=""><%= result.vehicle_no %></label>
+                </div>
+              </div>
+          </div>
+
+          <div class="col invoice-details">
+            <div class="date ">Check in time:</div>
+              <label for="check-in" class=""> <%= result.timein %></label>
+
+            <div class="date">Check out time: </div>
+              <label for="check-in" class=""> <%= result.timeout %></label>
+          </div>
+          <div  class="col invoice-details">
+              <div class="date ">Check in date:</div>
+              <label for="check-in" class=""> <%= result.indate %></label>
+
+            <div class="date">Check out date: </div>
+              <label for="check-in" class=""> <%= result.outdate %></label>
+          </div>
+
+          <table border="0" cellspacing="5" cellpadding="5" class="table1" >
+            <thead>
+              <tr>
+
+                <th class="text-right">HOUR PRICE</th>
+        
+                <th class="text-right">TOTAL</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <tr>
+
+
+                <td class="unit"> ₹50.00</td>
+                <td class="total"><%= result.charges %></td>
+
+              </tr>
+            </tbody>
+          </table>
+
+        </div>
+
+        <div class="thanks form-check-label bottom-line" id='invoice'>Thank you! Drive Safely!!</div>
+        <hr class="my-4">
+        <button class=" w-50 btn btn-success btn-lg " id="printInvoice" type="submit" onClick="window.print()>Print">Print Invoice</button>
+      </div>
+      </form>
+
+    </div>
+
+  </main>
